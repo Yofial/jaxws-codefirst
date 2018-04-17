@@ -1,0 +1,13 @@
+<!DOCTYPE xml>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+	version="2.0">
+	<endpoint 
+		name="HelloWorld" 
+		implementation="com.sample.jaxws_codefirst.HelloWorld"
+		url-pattern="/hello" />
+	<endpoint 
+		name="HelloWorld12" 
+		implementation="com.sample.jaxws_codefirst.HelloWorld"
+		binding="http://www.w3.org/2003/05/soap/bindings/HTTP/"  
+		url-pattern="/hello12" />
+</endpoints>
